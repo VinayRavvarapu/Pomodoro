@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    cursor: context-menu;
+}
+
+nav {
+    border-bottom: 4px solid rgb(102, 210, 137);
+}
+
+.logo .focusBoosterTextLogo {
+    height: 28px;
+    width: 175px;
+    display: none;
+}
+
+.logo .focusBoosterIcon {
+    height: auto;
+    width: auto;
+    display: block;
+}
+
+.bar {
+    width: 22px;
+    margin: 5px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px;
+    border: none;
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+
+.logoBtn {
+    background: #283742;
+    display: flex;
+    align-items: center;
+    padding:  10px 10px;
+    border-bottom: 1px solid #101010;
+}
+
+ul {
+    list-style: none;
+    height: 0px;
+    overflow: hidden;
+}
+
+.showNav { 
+    height: 92px;
+    transition: height 0.3s;
+}
+
+ul li a {
+    background: #283742;
+    display: block;
+    color: rgba(255,255,255,.8);
+    padding: 15px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+} 
+
+/* responsive mode*/
+
+@media screen and (min-width: 792px) {
+    .logoBtn {
+         border-bottom: 2px solid rgb(102, 210, 137);
+    }
+    
+    nav {
+        background: #283742;  
+        display: flex; 
+        align-items: center;
+    }
+
+    .logoBtn {
+        border-bottom: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        height: auto;
+    }
+     nav ul a {
+         background: transparent;
+         padding-left: 0px;
+     }
+
+     .logo .focusBoosterIcon {
+        display: none;
+    }
+
+    .logo .focusBoosterTextLogo {
+        display: block;
+    }
+}

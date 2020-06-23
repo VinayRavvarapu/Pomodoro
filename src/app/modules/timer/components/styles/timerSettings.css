@@ -1,0 +1,71 @@
+h1 {
+    font-family: 'museo-sans,sans-serif';
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: 1.3;
+    letter-spacing: .03em;
+}
+
+#preferences {
+    color: #666;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-width: 0;
+}
+
+legend {
+    color: #666;
+    border-bottom-color: #E5E5E5;
+    font-weight: 300;
+ }
+
+.MuiSlider-root {
+    color: #24C3CE !important;
+}
+
+.MuiSlider-track {
+    height: 10px !important;
+    color: #24C3CE !important;
+}
+
+.MuiSlider-rail {
+    height: 10px !important;
+    background-color: lightgrey !important;
+}
+
+.MuiSlider-thumb {
+    height: 20px !important; 
+    width: 20px !important;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+}
+
+.slider {
+    display: flex;
+}
+
+.formGroup .field label {
+    min-width: 230px;
+    flex: initial;
+}
+
+.horizontalSlider {
+    width: 210px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.sliderValue {
+    margin-right: 16px;
+    font-size: 13px;
+}

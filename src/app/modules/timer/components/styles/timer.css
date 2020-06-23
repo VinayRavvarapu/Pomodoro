@@ -1,0 +1,38 @@
+.toggle {
+    background: rgb(102, 210, 137);
+    right: 28px;
+    height: 40px;
+    width: 70px;
+    align-items: center;
+    padding: 10px 13px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.timerSettings {
+    float: right;
+    margin-right: 100px;
+}
+
+.timerSettingsHide {
+    display: none;
+}
+
+.settingsIcon {
+    background-color: #4fd7e0;
+    height: 40px;
+    width: 40px;
+    margin-left: 2px;
+}
+
+.timerIcon {
+    background-color: #4fd7e0;
+    height: 40px;
+    width: 40px;
+}
+
+li:hover img {
+    background-color: rgb(129, 242, 247);
+}
